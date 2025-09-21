@@ -2,6 +2,23 @@
 
 A comprehensive Android Database Management System for Delta Gemunupura College, built with modern Android development practices and Firebase backend integration.
 
+## 👥 Development Team
+
+**G.G.M.P. Kusumsiri**
+- Project Manager & Application Developer
+
+**A.H.D.B. Nirmani**
+- Data Analyst & Application Developer
+
+**T.H. Samaranayake**
+- UI/UX Engineer & Application Developer
+
+**M.M.I.M. Bandara**
+- Database Manager & Application Developer
+
+**N.D.M.M. Uluwita**
+- QA Engineer & Application Developer
+
 ## 🏫 Project Background
 
 In an age where education is being reshaped by digital transformation, institutions are facing pressure to improve data-driven decision making, streamline operations, and lessen administrative burdens. Delta Gemunupura College, a government school located in Nuwara Eliya, currently manages its data manually which is inefficient. 
@@ -308,13 +325,13 @@ The project includes comprehensive testing:
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 📞 Support
+## 📞 Contact
 
 For support and questions:
 - **Principal**: Mr. G.G. Kusumsiri
 - **School**: Delta Gemunupura College
 - **Location**: Nuwara Eliya, Sri Lanka
-- **Email**: support@deltagemunupura.edu.lk
+- **Email**: deltagmv@gmail.com
 
 ## 🙏 Acknowledgments
 
