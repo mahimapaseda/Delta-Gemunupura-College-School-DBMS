@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Delta GS DBMS</string>
+    
+    <!-- Welcome Screen -->
+    <string name="school_logo">School Logo</string>
+    <string name="welcome_to">Welcome</string>
+    <string name="school_name">Delta Gemunupura College</string>
+    <string name="dbms_title">Database Management System</string>
+    <string name="welcome_title">Welcome</string>
+    <string name="welcome_subtitle">Delta Gemunupura College</string>
+    <string name="welcome_description">Database Management System</string>
+    <string name="get_started">Get Started</string>
+    <string name="welcome_user">Welcome, %1$s!</string>
+    
+    <!-- Navigation -->
+    <string name="nav_drawer_open">Open navigation drawer</string>
+    <string name="nav_drawer_close">Close navigation drawer</string>
+    <string name="account">Account</string>
+    <string name="profile">Profile</string>
+    <string name="logout">Logout</string>
+    
+    <!-- PIN Authentication -->
+    <string name="pin_authentication">PIN Authentication</string>
+    <string name="enter_pin">Enter PIN</string>
+    <string name="pin_subtitle">Please enter the 4-digit PIN to access the system</string>
+    <string name="enter_4_digit_pin">Enter 4-digit PIN</string>
+    <string name="incorrect_pin">Incorrect PIN. Please try again.</string>
+    <string name="continue_text">Continue</string>
+    <string name="back">Back</string>
+    <string name="security_lock">Security Lock</string>
+    
+    <!-- Features -->
+    <string name="manage_students">Manage Students</string>
+    <string name="students_desc">Add, edit, and manage student records</string>
+    <string name="manage_staff">Manage Staff</string>
+    <string name="staff_desc">Add, edit, and manage staff details</string>
+    <string name="manage_assets">Manage Assets</string>
+    <string name="assets_desc">Track and manage school assets</string>
+    <string name="manage_exams">Manage Exams</string>
+    <string name="exams_desc">Schedule and manage examinations</string>
+    <string name="manage_timetables">Timetable, Teachers Attendance, Relief</string>
+    <string name="timetables_desc">Create and manage class timetables</string>
+    
+    <!-- Auth -->
+    <string name="sign_in">Sign In</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="full_name">Full Name</string>
+    <string name="username">Username</string>
+    <string name="username_or_email">Username or Email</string>
+    <string name="role">Role</string>
+    <string name="select_role">Select Role</string>
+    <string name="create_account">Create Account</string>
+    <string name="already_have_account">Already have an account? Sign In</string>
+    <string name="dont_have_account">Don\'t have an account? Sign Up</string>
+    <string name="no_account">Don\'t have an account?</string>
+    <string name="have_account">Already have an account?</string>
+    <string name="forgot_password">Contact administrator for password reset</string>
+    
+    <!-- Roles -->
+    <string name="role_administrator">Administrator</string>
+    <string name="role_principal">Principal</string>
+    <string name="role_data_officer">Data Officer</string>
+    <string name="role_technical_officer">Technical Officer</string>
+    <string name="role_academic_staff">Academic Staff</string>
+    
+    <!-- Biometric Authentication Strings -->
+    <string name="unlock_with_biometric">Unlock with Biometric</string>
+    <string name="biometric_title">Biometric Authentication</string>
+    <string name="biometric_subtitle">Use your fingerprint or face to unlock the app</string>
+    <string name="biometric_description">Enable biometric authentication for quick and secure access to the DBMS app</string>
+    <string name="biometric_enabled">Biometric authentication enabled</string>
+    <string name="biometric_disabled">Biometric authentication disabled</string>
+    <string name="biometric_not_available">Biometric authentication is not available on this device</string>
+    <string name="biometric_not_enrolled">No biometric credentials are enrolled. Please set up biometric authentication in device settings</string>
+    <string name="biometric_error">Biometric authentication error occurred</string>
+    <string name="biometric_authentication_required">Biometric Authentication Required</string>
+    <string name="biometric_touch_sensor">Touch the fingerprint sensor or look at the camera</string>
+    <string name="biometric_success">Biometric authentication successful</string>
+    <string name="biometric_failed">Biometric authentication failed</string>
+
+    <!-- System Settings -->
+    <string name="system_settings">System Settings</string>
+    <string name="system_settings_desc">Configure system preferences and access controls</string>
+    
+    <!-- Common Actions -->
+    <string name="save">Save</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="cancel">Cancel</string>
+    <string name="refresh">Refresh</string>
+    
+    <!-- Errors -->
+    <string name="error_empty_fields">This field cannot be empty</string>
+    <string name="error_invalid_email">Please enter a valid email address</string>
+    <string name="error_invalid_username">Username must be at least 3 characters long</string>
+    <string name="error_invalid_phone">Please enter a valid phone number</string>
+    <string name="error_password_length">Password must be at least 6 characters</string>
+    <string name="error_passwords_mismatch">Passwords do not match</string>
+    <string name="error_invalid_credentials">Invalid email/username or password</string>
+    <string name="error_network">Network error. Please check your connection.</string>
+    <string name="error_generic">Something went wrong. Please try again.</string>
+    
+    <!-- Success Messages -->
+    <string name="success_account_created">Account created successfully!</string>
+    <string name="success_signed_in">Signed in successfully!</string>
+
+</resources>

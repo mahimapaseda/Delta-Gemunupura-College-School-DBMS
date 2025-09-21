@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary Colors -->
+    <color name="primary">#8B1538</color>
+    <color name="primary_dark">#6B1028</color>
+    <color name="primary_light">#A5355A</color>
+    <color name="secondary">#FF6B35</color>
+    <color name="secondary_dark">#E55A2B</color>
+    <color name="secondary_light">#FF8555</color>
+    
+    <!-- Accent Colors -->
+    <color name="accent">#4CAF50</color>
+    <color name="accent_light">#66BB6A</color>
+    <color name="accent_dark">#388E3C</color>
+    
+    <!-- Background Colors -->
+    <color name="background_light">#FAFAFA</color>
+    <color name="background_dark">#F5F5F5</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="surface_variant">#F8F9FA</color>
+    
+    <!-- Text Colors -->
+    <color name="text_primary">#212121</color>
+    <color name="text_secondary">#757575</color>
+    <color name="text_tertiary">#9E9E9E</color>
+    <color name="text_on_primary">#FFFFFF</color>
+    <color name="text_on_surface">#212121</color>
+    
+    <!-- State Colors -->
+    <color name="status_active">#4CAF50</color>
+    <color name="status_inactive">#F44336</color>
+    <color name="status_pending">#FF9800</color>
+    <color name="status_warning">#FFC107</color>
+    <color name="status_info">#2196F3</color>
+    
+    <!-- Grade Colors -->
+    <color name="grade_a">#4CAF50</color>
+    <color name="grade_b">#8BC34A</color>
+    <color name="grade_c">#CDDC39</color>
+    <color name="grade_s">#FFC107</color>
+    <color name="grade_w">#FF5722</color>
+    
+    <!-- Card and Surface Colors -->
+    <color name="card_background">#FFFFFF</color>
+    <color name="card_stroke">#E0E0E0</color>
+    <color name="divider_color">#E0E0E0</color>
+    <color name="shadow_color">#1A000000</color>
+    
+    <!-- Common Colors -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="overlay">#80000000</color>
+    
+    <!-- Material Design System Colors -->
+    <color name="material_blue">#2196F3</color>
+    <color name="material_indigo">#3F51B5</color>
+    <color name="material_green">#4CAF50</color>
+    <color name="material_orange">#FF9800</color>
+    <color name="material_red">#F44336</color>
+    <color name="material_purple">#9C27B0</color>
+    
+    <!-- Legacy Theme Support Colors -->
+    <color name="maroon_primary">#8B1538</color>
+    <color name="maroon_dark">#6B1028</color>
+    <color name="maroon_light">#B85A7A</color>
+    <color name="gold_accent">#FFD700</color>
+    <color name="cream_background">#FAFAFA</color>
+    <color name="cream_light">#FEFEFE</color>
+    
+    <!-- Additional functional colors -->
+    <color name="green_success">#4CAF50</color>
+    <color name="orange_warning">#FF9800</color>
+    <color name="excellent_green">#2E7D32</color>
+    <color name="error_red">#F44336</color>
+    <color name="red_error">#F44336</color>
+    <color name="divider">#E0E0E0</color>
+    <color name="blue_info">#2196F3</color>
+    
+    <!-- Navigation Drawer Colors -->
+    <color name="nav_drawer_background">#1A1A1A</color>
+    <color name="nav_drawer_text">#FFFFFF</color>
+    <color name="nav_drawer_icon">#FFFFFF</color>
+    
+</resources>

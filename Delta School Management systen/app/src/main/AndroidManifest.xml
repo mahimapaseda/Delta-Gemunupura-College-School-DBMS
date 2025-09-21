@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" android:maxSdkVersion="32" />
+    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" android:maxSdkVersion="28" />
+    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" tools:ignore="ScopedStorage" />
+    
+    <!-- Biometric Authentication Permissions -->
+    <uses-permission android:name="android.permission.USE_BIOMETRIC" />
+    <uses-permission android:name="android.permission.USE_FINGERPRINT" />
+    
+    <uses-feature android:name="android.hardware.camera" android:required="false" />
+    <uses-feature android:name="android.hardware.fingerprint" android:required="false" />
+
+    <application
+        android:name=".DBMSApplication"
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.DBMS"
+        android:forceDarkAllowed="false"
+        tools:targetApi="31">
+        
+        <activity
+            android:name=".WelcomeActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".PinAuthenticationActivity" />
+        <activity android:name=".PinSetupActivity" />
+        <activity android:name=".ForgotPinActivity" />
+        <activity android:name=".SignInActivity" />
+        <activity android:name=".SignUpActivity" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".ProfileActivity" />
+        
+        <!-- Staff Management Activities -->
+        <activity android:name=".ManageStaffActivity" />
+        <activity 
+            android:name=".AddStaffActivity"
+            android:exported="false"
+            android:parentActivityName=".ManageStaffActivity" />
+        <activity android:name=".EditStaffActivity" />
+        <activity android:name=".ViewStaffActivity" />
+        <activity android:name=".ViewStaffListActivity" />
+        
+        <!-- Student Management Activities -->
+        <activity android:name=".ManageStudentsActivity" />
+        <activity android:name=".AddStudentActivity" />
+        <activity android:name=".EditStudentActivity" />
+        <activity android:name=".ViewStudentActivity" />
+        
+        <!-- Asset Management Activities -->
+        <activity android:name=".ManageAssetsActivity" />
+        <activity android:name=".AddAssetActivity" />
+        <activity android:name=".ViewAssetActivity" />
+        <activity android:name=".EditAssetActivity" />
+        
+        <!-- Exam Management Activities -->
+        <activity android:name=".ManageExamsActivity" />
+        <activity android:name=".SystemSettingsActivity" />
+        <activity android:name=".GradeManagementActivity" />
+        <activity android:name=".Grade69TermTestManageActivity" />
+        <activity android:name=".Grade6to9TermTestActivity" />
+        <activity android:name=".Grade12to13PhysicalScienceTermTestActivity" />
+        <activity android:name=".Grade12to13PhysicalScienceAddEditTermTestActivity" />
+        <activity android:name=".Grade12to13PhysicalScienceViewTermTestActivity" />
+        <activity android:name=".Grade12to13CommerceTermTestActivity" />
+        <activity android:name=".Grade12to13CommerceAddEditTermTestActivity" />
+        <activity android:name=".Grade12to13ArtTermTestActivity" />
+        <activity android:name=".Grade12to13ArtAddEditTermTestActivity" />
+        <activity android:name=".Grade12to13ArtViewTermTestActivity" />
+        <activity android:name=".Grade12to13BioScienceTermTestActivity" />
+        <activity android:name=".Grade12to13BioScienceViewTermTestActivity" />
+        <activity android:name=".Grade12to13BioScienceAddEditTermTestActivity" />
+
+        <!-- Timetable Management Activities -->
+        <activity android:name=".ManageTimetableActivity" />
+        <activity android:name=".ManageTimetableSectionActivity" />
+        <activity android:name=".AddEditTimetableActivity" />
+        <activity android:name=".ViewTimetableActivity" />
+        <activity android:name=".TeacherAttendanceActivity" />
+        <activity android:name=".AddTeacherAttendanceActivity" />
+        <activity android:name=".ReliefManagementActivity" />
+        <activity android:name=".AddReliefActivity" />
+        <activity android:name=".EditReliefActivity" />
+
+        <activity android:name=".GradeManageActivity" />
+        <activity android:name=".Grade6to9ManageActivity" />
+        <activity android:name=".Grade12to13BioScienceManageActivity" />
+        <activity android:name=".Grade12to13CommerceManageActivity" />
+        <activity android:name=".Grade12to13CommerceViewTermTestActivity" />
+        <activity android:name=".Grade12to13PhysicalScienceManageActivity" />
+        <activity android:name=".ALResultsManageActivity" />
+        <activity android:name=".OLResultsManageActivity" />
+
+        <activity android:name=".AddExamActivity" />
+        <activity android:name=".AddOLResultActivity" />
+        <activity android:name=".ViewOLResultActivity" />
+        <activity android:name=".AddALResultActivity" />
+        <activity android:name=".ViewALResultActivity" />
+
+        <!-- Term Test Management Activities -->
+        <activity android:name=".Grade69AddEditTermTestActivity" />
+        <activity android:name=".Grade69ViewTermTestActivity" />
+        <activity android:name=".Grade69AddMultipleTermTestsActivity" />
+        
+        <!-- Grade 10-11 Management Activities -->
+        <activity android:name=".Grade1011ManageActivity" />
+        <activity android:name=".Grade1011TermTestActivity" />
+        <activity android:name=".Grade1011AddEditTermTestActivity" />
+        <activity android:name=".Grade1011ViewTermTestActivity" />
+
+        <!-- File Provider for sharing reports and camera images -->
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+
+    </application>
+</manifest>
