@@ -4,7 +4,7 @@ A comprehensive Android Database Management System for Delta Gemunupura College,
 
 ## 🏫 Project Background
 
-In an age where education is being reshaped by digital transformation, institutions are facing pressure to improve data-driven decision making, streamline operations, and lessen administrative burdens. Delta Gemunupura College, a government school located in Nuwara Eliya, currently manages its data manually which is inefficient. 
+In an age where education is being reshaped by digital transformation, institutions are facing pressure to improve data-driven decision-making, streamline operations, and lessen administrative burdens. Delta Gemunupura College, a government school located in Nuwara Eliya, currently manages its data manually which is inefficient. 
 
 In order to address this issue, this project proposal includes a comprehensive plan for creating a school database management system. The goal of this system is to assist the school in digitizing and streamlining its daily operations, lowering the amount of manual labor, and enhancing access to critical data. Our goals are to increase operational effectiveness, lower mistake rates, and provide a seamless management system.
 
@@ -259,7 +259,7 @@ The app requires Firebase configuration for:
 
 ## 🔒 Security Features
 
-- **Multi-factor Authentication**: Firebase Auth + PIN + Biometric
+- **Multifactor Authentication**: Firebase Auth + PIN + Biometric
 - **Role-based Access Control**: Granular permission system
 - **Session Management**: Secure session handling
 - **Data Encryption**: Firebase security rules
@@ -294,7 +294,7 @@ The project includes comprehensive testing:
 ✅ **Improved Data Access**: Centralized information management
 ✅ **Enhanced Security**: Multi-layer authentication system
 ✅ **Increased Efficiency**: Automated workflows and reporting
-✅ **Better Decision Making**: Data-driven insights and analytics
+✅ **Better Decision-Making**: Data-driven insights and analytics
 
 ## 🤝 Contributing
 
